@@ -1,0 +1,1 @@
+%comspec% /k JavaWindows\bin\java.exe -jar RunnableJar\HarrisERPExercise.jar
