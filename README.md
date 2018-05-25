@@ -51,7 +51,9 @@ Once Java is installer, you can either set the environment variables for Java (W
 
 If you are more familiar with Java, have Java 8 installed on your machine, and would like to run the .jar file yourself, you can use the following command to do so:
 
-**NOTE - run all of these commands while you are in the Main directory for this project, called HarrisERP! Otherwise, you will need to use full absolute path names to reach the .jar file and/or the other files!**
+**NOTE - unless you want to use absolute paths, run all of these commands while you are in the Main directory for this project, called HarrisERP! Otherwise, you will need to use full absolute path names to reach the .jar file and/or the other files!**
+
+The .jar file is located at **HarrisERP\RunnableJar\HarrisERPExercise.jar**.
 
 Windows - in the command line, navigate to the **HarrisERP** folder. If your environment variable for Java is set, type **java -jar RunnableJar\HarrisERPExercise.jar**. If you do not have the environment variable for Java 8 set up (and typing java -version does not work), then you can still use the path to the java.exe file to run java commands. You will need to know the path to where you installed Java, which should be something similar to **"C:\Program Files\Java\jdk1.8.0_161\bin\java.exe**. Using that path you would type **"C:\Program Files\Java\jdk1.8.0_161\bin\java.exe -jar RunnableJar\HarrisERPExercise.jar**.  Or you can use the path to the Java 8 jre that is included in the HarrisERP folder. Using this, the path would be **JavaWindows\bin\java.eve -jar RunnableJar\HarrisERPExercise.jar**.
 
