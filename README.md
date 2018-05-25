@@ -37,7 +37,7 @@ Windows - https://java.com/en/download/help/windows_manual_download.xml
 
 Mac - https://java.com/en/download/help/mac_install.xml
 
-Linux - https://java.com/en/download/help/linux_install.xml       For linux, you can also usually run **sudo apt install openjdk-8-jre-headless** and followthe instructions on screen. It should install Java 8 for you.
+Linux - https://java.com/en/download/help/linux_install.xml       For linux, the easiest way to install is usually by opening the terminal and running **sudo apt install openjdk-8-jre-headless** and follow the instructions on-screen. It should install Java 8 for you.
 
 
 If these do not cover your operating system, there are more helpful links on the Java website.
