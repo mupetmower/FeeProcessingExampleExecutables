@@ -1,14 +1,16 @@
 # HarrisERPExercise - Fee Processor
 
-This program was created in Eclipse in a Java 8 environment. Since I used some stream functionality and some lambdas, Java 8 is required to run this program. The stream API and lambda support is not in Java 7 and lower.
+This program is located in **HarrisERP\Project** and is a .zip file. Fee Processor was created in Eclipse in a Java 8 environment. Since I used some stream functionality and some lambdas, Java 8 is required to run this program. The stream API and lambda support is not in Java 7 and lower.
 
 # NOTES
 
-In the folder this was downloaded with, There should be folders named JavaWindows, JavaMac, JavaLinux. These are where copies of the Java 8 jre reside. I have included these so that it is not necessary for the user to install anything. If you would like to install Java 8 on your machine anyway, please continue to section titled **How to Check Java Version**. Otherwise, continue to the section titled **How to Run with Embedded JRE**.
+In this folder, there should be folders named JavaWindows, JavaMac, JavaLinux. These are where copies of the Java 8 jre reside. I have included these so that it is not necessary for the user to install anything. If you would like to install Java 8 on your machine anyway, please continue to section titled **How to Check Java Version**. Otherwise, continue to the section titled **How to Run with Embedded JRE**.
 
 # How to Run with Embedded JRE
 
-In the main folder you have downloaded called **HarrisERP** there should be files named **RunOnWindows**, **RunOnMac**, and **RunOnLinux**. Simply double-click the file that correcsponds to your operating system, or right-click and choose Open. This should bring up your terminal/console and you should see a command followed by **Welcom to Fee Processor**. You are no running the program and can follow on-screen instructions.
+**!!!NOTE FOR MAC!!! - Mac Users, please download this entire folder onto your Desktop. For the RunOnMac.command file to work and use the embedded jre, I had to choose a location for the file to look for the jre because when you run a .command, .sh, or .bash file on Mac, it automatically starts running from the machine's home directory. Since I had to choose a location relative to the home directory, I went ahead and told it to look on the Desktop. So please install this folder onto your desktop. The directory structure should be /Desktop/HarrisERP/ and HarrisERP should contain Project, RunnableJar, JavaMac, etc. Sorry for the inconvenience.**
+
+In the main folder you have downloaded called **HarrisERP** there should be files named **RunOnWindows.bat**, **RunOnMac.command**, and **RunOnLinux.sh**. Simply double-click the file that corresponds to your operating system, or right-click and choose Open. This should bring up your terminal/console and you should see a command followed by **Welcom to Fee Processor**. You are now running the program and can follow on-screen instructions.
 
 # How to Check Java Version
 
